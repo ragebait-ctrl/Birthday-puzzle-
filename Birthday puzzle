@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission: Love</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="welcome">
+        <h1>Welcome to Mission: Love</h1>
+        <p>The mission begins now... <span id="startMission">Click here to start</span></p>
+    </div>
+
+    <div id="mission1" class="hidden">
+        <h2>Mission 1: Starcode Access</h2>
+        <p>Enter the coordinates of our anniversary date:</p>
+        <input type="text" id="dateInput" placeholder="MM-DD-YYYY">
+        <button onclick="checkDate()">Submit</button>
+    </div>
+
+    <div id="mission2" class="hidden">
+        <h2>Mission 2: The Signal</h2>
+        <p>A song I play when I miss you the most. It's the soundtrack of my heart.</p>
+        <input type="text" id="songInput" placeholder="Guess the song name">
+        <button onclick="checkSong()">Submit</button>
+    </div>
+
+    <div id="mission3" class="hidden">
+        <h2>Mission 3: Awawuuu Decoder</h2>
+        <p>It's the way a certain cat would say 'I love you'—a secret we share. Can you decode it?</p>
+        <input type="text" id="catInput" placeholder="Type the secret word">
+        <button onclick="checkCat()">Submit</button>
+    </div>
+
+    <div id="finalMessage" class="hidden">
+        <h2>Mission Complete!</h2>
+        <p>Happy Birthday baby! I promise to stay by your side every year... loving you the same as ever and even more.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
